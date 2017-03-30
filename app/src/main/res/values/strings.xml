@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kugou</string>
+
+    <string-array name="degrees">
+        <item>请选择</item>
+        <item>10s钟</item>
+        <item>20s钟</item>
+        <item>30s钟</item>
+        <item>60s钟</item>
+    </string-array>
+</resources>

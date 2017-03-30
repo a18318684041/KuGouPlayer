@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kugou_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.kugou.MainActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/list_view"
+        />
+
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:max="100"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="歌曲名字"
+            android:id="@+id/flow_name"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/last"
+            android:id="@+id/last"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pause"
+            android:id="@+id/play"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/next"
+            android:id="@+id/next"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
